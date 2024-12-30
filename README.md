@@ -2,6 +2,9 @@
 
 This repo is a POC to use Okta's `oktaverify` protocol with other authenticator apps. My need was for [Aegis](https://getaegis.app/).
 
+> [!IMPORTANT]
+> Based on [this Gist](https://gist.github.com/kamilhism/9f6f26ce3e10b6685af8c43f33aca808) by [Kamil Hismatullin](https://gist.github.com/kamilhism)
+
 ## Requirements
 1. [trurl](https://github.com/curl/trurl)
 2. [qrencode](https://github.com/fukuchi/libqrencode)
