@@ -11,6 +11,10 @@ This repo is a POC to use Okta's `oktaverify` protocol with other authenticator 
 3. [zbar](https://github.com/mchehab/zbar)
 4. [jq](https://jqlang.github.io/jq/)
 
+* Arch: `sudo pacman -Syu trurl qrencode zbar jq`
+* Fedora: `sudo dnf install trurl qrencode zbar jq`
+* Ubuntu: `sudo apt install trurl qrencode zbar-tools jq`
+
 ## Usage
 
 1. Get your Okta QR Code in Okta Settings: https://<okta-domain>.okta.com/enduser/settings
