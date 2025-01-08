@@ -22,15 +22,16 @@ This repo is a POC to use Okta's `oktaverify` protocol with other authenticator 
 ![Set up](/images/setup_verification.png)
 2. Take a screenshot of roughly the area marked with the red rectangle
 ![QR Code](/images/qr_code.png)
-3. Save the screenshot somewhere next to the `generate.sh` script
-4. Generate a new QR Code that Aegis can read
+3. **Leave the QR Code window open until all steps are complete! The page should redirect automatically.**
+4. Save the screenshot somewhere next to the `generate.sh` script
+5. Generate a new QR Code that Aegis can read
    - Usage: `./generate.sh <path/to/qr.png> <okta-domain> <issuer>`
    - Example `./generate.sh ./qr-png your-org "Something to identify in authenticator"`
 
-5. Scan the resulting QR Code in your authenticator
-6. Test logging in to Okta with the new code
-7. ??? 
-8. Profit
+6. Scan the resulting QR Code in your authenticator
+7. Test logging in to Okta with the new code
+8. ??? 
+9. Profit
 
 ## Cleanup
 1. ```./clean.sh```
