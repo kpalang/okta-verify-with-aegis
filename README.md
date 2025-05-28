@@ -14,6 +14,7 @@ This repo is a POC to use Okta's `oktaverify` protocol with other authenticator 
 * Arch: `sudo pacman -Syu trurl qrencode zbar jq`
 * Fedora: `sudo dnf install trurl qrencode zbar jq`
 * Ubuntu: `sudo apt install trurl qrencode zbar-tools jq`
+* MacOS: `brew install trurl qrencode zbar jq`
 
 ## Usage
 
